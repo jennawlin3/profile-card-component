@@ -13,6 +13,7 @@
 body {
     background-color: var(--dark-cyan);
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -158,10 +159,7 @@ body::before {
     background-repeat: no-repeat;
     width: 100vw;
     height: 60vh;
-    position: absolute;
-}
-
-body::before {
+    position: absolute;    
     top: -30px;
     margin-right: 80vw;
     opacity: 1;
@@ -169,6 +167,7 @@ body::before {
 
 body::after {
     margin-left: 80vw;
+    background-repeat: no-repeat;
 }
 
 }
